@@ -5,7 +5,7 @@ import { assertionCondition } from './assertion-condition';
 const ruleTester = new RuleTester();
 
 ruleTester.run(
-	'@frontend/assertions/assertions-condition',
+	'@lubowiecki/assertions/assertions-condition',
 	assertionCondition,
 	{
 		valid: [
