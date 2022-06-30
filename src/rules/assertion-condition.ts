@@ -10,7 +10,6 @@ export const assertionCondition: Rule.RuleModule = {
 			category: 'Assertions',
 			description:
 				'Disallowing passing explicit boolean true or false to the assert() method reduces the amount of false-positives.',
-			url: 'https://lil-git.opi.org.pl/frontend/frontend/eslint-plugin-assertions',
 		},
 		messages: {
 			assertionNoCondition: "Assertion condition can't be empty",

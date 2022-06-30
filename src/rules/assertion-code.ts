@@ -10,7 +10,6 @@ export const assertionCode: Rule.RuleModule = {
 		docs: {
 			category: 'Assertions',
 			description: 'Checks if always() and never() code match a pattern.',
-			url: 'https://lil-git.opi.org.pl/frontend/frontend/eslint-plugin-assertions',
 		},
 		messages: {
 			codeEmpty: 'Assertion code is empty',
